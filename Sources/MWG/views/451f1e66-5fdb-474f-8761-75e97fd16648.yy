@@ -11,7 +11,8 @@
         "c37f9500-5c81-4110-b8bd-409b2659b508",
         "5d2a7146-9888-4bc9-8b42-41102eee72ea",
         "9eb7025e-5db0-43a8-a8c2-e98ca36d707b",
-        "cf97dad1-6f46-4cff-bf5b-86d9be075512"
+        "cf97dad1-6f46-4cff-bf5b-86d9be075512",
+        "9b2e736e-0655-4e41-89ec-647fa9f54c4b"
     ],
     "filterType": "GMObject",
     "folderName": "IngameObjects",
