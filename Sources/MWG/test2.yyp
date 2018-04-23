@@ -55,6 +55,30 @@
             }
         },
         {
+            "Key": "079d5ac1-d27d-4806-8cfa-eadb492804c8",
+            "Value": {
+                "id": "c0f18e44-109c-42c5-b678-85720fbcc91f",
+                "resourcePath": "sprites\\sprite_slowdown_pickup\\sprite_slowdown_pickup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0a022f04-0697-411b-bd00-68e94b1ebff2",
+            "Value": {
+                "id": "1a97582e-b350-435a-abd2-af01554d96cb",
+                "resourcePath": "scripts\\pickUpPowerUp\\pickUpPowerUp.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0e7eb9b1-b139-4440-a7b4-f0f13982b0be",
+            "Value": {
+                "id": "e04cb32a-4939-492b-9820-1f339b07814f",
+                "resourcePath": "objects\\powerup_system\\powerup_system.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1110d4b9-eba0-4e31-861a-420a2b80ed80",
             "Value": {
                 "id": "e9463996-8c04-4486-9386-a741df930d12",
@@ -83,6 +107,14 @@
             "Value": {
                 "id": "8a40e0d9-1d16-4891-b18c-476c13480a4a",
                 "resourcePath": "sprites\\sprite_bomb\\sprite_bomb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "18c770db-47a7-44c9-af5f-8eda4e62e99d",
+            "Value": {
+                "id": "93811422-83e2-43f6-b4d2-9444fe6b85fc",
+                "resourcePath": "sprites\\sprite_bomb_pickup\\sprite_bomb_pickup.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -135,6 +167,14 @@
             }
         },
         {
+            "Key": "27dab228-66c7-4a9a-9a50-bd7eed1b334c",
+            "Value": {
+                "id": "dfe48ca3-6a8e-41e2-b5a3-f7aff2a56eb5",
+                "resourcePath": "objects\\pickup_spawner\\pickup_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2d7dd3b1-0aca-4c0f-b354-5a3606ca00ba",
             "Value": {
                 "id": "df57440b-fc64-456e-abd9-98925f344e9c",
@@ -147,6 +187,14 @@
             "Value": {
                 "id": "ec0b8abb-7dee-49bf-9161-54c0671e9ce6",
                 "resourcePath": "objects\\objAsteroid\\objAsteroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "31d54edb-9574-43fb-b794-e8bfcd65a06c",
+            "Value": {
+                "id": "794d9f00-ec09-45c3-b0ba-e14c9a7041de",
+                "resourcePath": "objects\\objSlowdownPickup\\objSlowdownPickup.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -180,6 +228,14 @@
                 "id": "efd9689e-4dee-40ca-98d2-0e8725905022",
                 "resourcePath": "views\\451f1e66-5fdb-474f-8761-75e97fd16648.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4645f835-37f8-47f2-994d-94af86960136",
+            "Value": {
+                "id": "48f7628a-ea32-40d4-8bf3-9ecbe2607f61",
+                "resourcePath": "objects\\objShieldPickup\\objShieldPickup.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -267,6 +323,14 @@
             "Value": {
                 "id": "e8607dba-5457-46d3-b387-e6f3adf0340e",
                 "resourcePath": "objects\\score_hud_display\\score_hud_display.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5e4c010f-a89f-428b-9440-1d4316778077",
+            "Value": {
+                "id": "24066782-264d-4fdb-968b-d354dc6e87f3",
+                "resourcePath": "objects\\objBombPickup\\objBombPickup.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -362,7 +426,7 @@
             "Key": "9eb7025e-5db0-43a8-a8c2-e98ca36d707b",
             "Value": {
                 "id": "7fc3cf99-11c3-4a1c-8ff6-b55dfe26427f",
-                "resourcePath": "objects\\spawner\\spawner.yy",
+                "resourcePath": "objects\\enemy_spawner\\enemy_spawner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -412,6 +476,14 @@
                 "id": "c7f3de5c-57f6-4871-8877-ac6874e041d1",
                 "resourcePath": "views\\af411ee6-13a8-477e-95e0-ec9c98c346a7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b2e09869-0283-4953-b9b7-fa829145d4f9",
+            "Value": {
+                "id": "d26884c0-59e2-4bf8-b1db-c304a1d0efd9",
+                "resourcePath": "sprites\\sprite_coinmagnet_pickup\\sprite_coinmagnet_pickup.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -559,6 +631,14 @@
             }
         },
         {
+            "Key": "e98bb24e-9fbf-458a-9c07-589a0bd139e5",
+            "Value": {
+                "id": "cac97871-5df3-4269-9ae4-76db1f627217",
+                "resourcePath": "sprites\\sprite_shield_pickup\\sprite_shield_pickup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "edb4575e-ea06-4eb3-89e7-42861f0d8efc",
             "Value": {
                 "id": "90056d0a-749b-4433-9450-bbd3957bf46c",
@@ -591,6 +671,14 @@
             }
         },
         {
+            "Key": "fe7b1dc2-4671-4b0b-8955-294b44063d61",
+            "Value": {
+                "id": "1c651548-8717-46f1-a3ee-9fe177bae119",
+                "resourcePath": "objects\\objCoinMagnetPickup\\objCoinMagnetPickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ff511ce8-38c6-4661-85b6-c424c8aa8121",
             "Value": {
                 "id": "b8804ea1-b5cd-4a4a-9460-a0bfbff0c20f",
@@ -612,7 +700,8 @@
         "1f174605-7891-4c07-889d-1aea571a362f",
         "52cfea27-377c-40f1-93b6-23a4a1a15375",
         "99d7ec58-bdb7-4317-ac94-739d0cb9c0b9",
-        "49fcf355-4ca3-429d-97ec-256f7d62ae3c"
+        "49fcf355-4ca3-429d-97ec-256f7d62ae3c",
+        "0a022f04-0697-411b-bd00-68e94b1ebff2"
     ],
     "tutorial": ""
 }
