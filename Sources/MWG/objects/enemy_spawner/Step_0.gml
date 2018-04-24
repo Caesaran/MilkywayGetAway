@@ -15,33 +15,12 @@ if(l3485574E_0)
 	/// @DnDArgument : "value" "false"
 	if(global.scriptIsRunning == false)
 	{
-		/// @DnDAction : YoYo Games.Random.Choose
-		/// @DnDVersion : 1
-		/// @DnDHash : 5194CECE
-		/// @DnDInput : 5
-		/// @DnDParent : 61DA6244
-		/// @DnDArgument : "var" "temp"
-		/// @DnDArgument : "var_temp" "1"
-		/// @DnDArgument : "option_1" "1"
-		/// @DnDArgument : "option_2" "2"
-		/// @DnDArgument : "option_3" "3"
-		/// @DnDArgument : "option_4" "4"
-		var temp = choose(0, 1, 2, 3, 4);
-	
-		/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-		/// @DnDVersion : 1
-		/// @DnDHash : 271E6525
-		/// @DnDParent : 61DA6244
-		/// @DnDArgument : "msg" "temp"
-		show_debug_message(string(temp));
-	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
-		/// @DnDHash : 02C19B32
+		/// @DnDHash : 27766F93
 		/// @DnDParent : 61DA6244
-		/// @DnDArgument : "steps" "global.spawnSpeed * 2"
-		/// @DnDArgument : "alarm" "temp"
-		alarm_set(temp, global.spawnSpeed * 2);
+		/// @DnDArgument : "steps" "global.spawnSpeed"
+		alarm_set(0, global.spawnSpeed);
 	
 		/// @DnDAction : YoYo Games.Common.Set_Global
 		/// @DnDVersion : 1

@@ -32,3 +32,10 @@ global.slot1PowerUp = "";
 global.slot2PowerUp = "";
 global.slot1PowerUpUses = 0;
 global.slot2PowerUpUses = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 0D9070ED
+/// @DnDArgument : "value" "3"
+/// @DnDArgument : "var" "pickupMovementSpeed"
+global.pickupMovementSpeed = 3;

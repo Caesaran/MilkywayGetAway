@@ -4,3 +4,9 @@
 /// @DnDArgument : "value" "false"
 /// @DnDArgument : "var" "scriptIsRunning"
 global.scriptIsRunning = false;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 2DF8C1D8
+/// @DnDArgument : "steps" "global.spawnSpeed"
+alarm_set(0, global.spawnSpeed);
