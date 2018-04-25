@@ -14,7 +14,7 @@
         "6a8bcc29-3f81-437e-bfdf-b4b372f3d5a2"
     ],
     "filterType": "GMScript",
-    "folderName": "SpawnSets",
+    "folderName": "SpawnSetScripts",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

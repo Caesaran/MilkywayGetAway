@@ -3,9 +3,9 @@
 /// @DnDHash : 67EF5C91
 /// @DnDArgument : "x" "10"
 /// @DnDArgument : "y" "900"
-/// @DnDArgument : "caption" ""Slot 1 Powerup: ""
+/// @DnDArgument : "caption" ""Slot 1 powerup: ""
 /// @DnDArgument : "var" "global.slot1PowerUp"
-draw_text(10, 900, string("Slot 1 Powerup: ") + string(global.slot1PowerUp));
+draw_text(10, 900, string("Slot 1 powerup: ") + string(global.slot1PowerUp));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
@@ -21,9 +21,9 @@ draw_text(10, 920, string("Slot 1 powerup uses: ") + string(global.slot1PowerUpU
 /// @DnDHash : 5574E537
 /// @DnDArgument : "x" "10"
 /// @DnDArgument : "y" "940"
-/// @DnDArgument : "caption" ""Slot 2 Powerup: ""
+/// @DnDArgument : "caption" ""Slot 2 powerup: ""
 /// @DnDArgument : "var" "global.slot2PowerUp"
-draw_text(10, 940, string("Slot 2 Powerup: ") + string(global.slot2PowerUp));
+draw_text(10, 940, string("Slot 2 powerup: ") + string(global.slot2PowerUp));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1

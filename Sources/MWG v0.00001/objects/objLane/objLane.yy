@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "objLane",
     "eventList": [
-        {
-            "id": "f0078052-f58d-491d-b96f-5a6b9a6e915f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "1138e0f2-ea30-4417-87c6-b743304e0825",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "5d22ffa8-1441-4f6f-9297-0cfaa371e59c"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
