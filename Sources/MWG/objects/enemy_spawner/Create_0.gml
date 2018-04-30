@@ -43,11 +43,11 @@ global.spawnRow2 = -550;
 /// @DnDVersion : 1
 /// @DnDHash : 1C1FFB3B
 /// @DnDInput : 2
-/// @DnDArgument : "value" "4.0"
+/// @DnDArgument : "value" "2.0"
 /// @DnDArgument : "value_1" "room_speed * global.spawnSpeedModifier"
 /// @DnDArgument : "var" "spawnSpeedModifier"
 /// @DnDArgument : "var_1" "spawnSpeed"
-global.spawnSpeedModifier = 4.0;
+global.spawnSpeedModifier = 2.0;
 global.spawnSpeed = room_speed * global.spawnSpeedModifier;
 
 /// @DnDAction : YoYo Games.Common.Set_Global

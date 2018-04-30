@@ -135,18 +135,10 @@
             }
         },
         {
-            "Key": "18c770db-47a7-44c9-af5f-8eda4e62e99d",
-            "Value": {
-                "id": "93811422-83e2-43f6-b4d2-9444fe6b85fc",
-                "resourcePath": "sprites\\sprite_bomb_pickup\\sprite_bomb_pickup.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "18f09a49-f04b-447b-a904-2d81fde0a376",
             "Value": {
                 "id": "20c5c6e6-e585-4a4a-b14e-48d59316428b",
-                "resourcePath": "sprites\\sprite_button_\\sprite_button_.yy",
+                "resourcePath": "sprites\\sprite_button_template\\sprite_button_template.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -543,6 +535,14 @@
             }
         },
         {
+            "Key": "909ffc59-136b-4120-809d-eb0ea30e993d",
+            "Value": {
+                "id": "751f40f4-7d96-4836-a0bb-bd4cb55870b4",
+                "resourcePath": "objects\\objControlsBomb\\objControlsBomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "967a8fcd-e1c7-4c22-9719-38c73f0624cf",
             "Value": {
                 "id": "db339e31-c263-4ebd-a25c-24f76669115d",
@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "d2df9725-deb4-4ac3-97bd-4c35ee357052",
+            "Value": {
+                "id": "db21f6f9-d069-4270-b81e-c91ee9a6aac1",
+                "resourcePath": "sprites\\sprite_bomb_pickup\\sprite_bomb_pickup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d6704e4b-1402-4b0d-b153-2f34c47dfc4a",
             "Value": {
                 "id": "7d60bb9a-cb46-41fd-b5ce-59c9b2f61099",
@@ -844,6 +852,14 @@
                 "id": "205cd64b-26f0-4a80-96ac-b61fbf411260",
                 "resourcePath": "views\\f472abb8-ab18-4c5d-b157-abdea583e0ee.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fb088d90-23ec-4121-9013-299a4aae98a6",
+            "Value": {
+                "id": "7af8d510-ee3b-481e-b3c2-a3d540805e6b",
+                "resourcePath": "sprites\\sprite_controls_bomb\\sprite_controls_bomb.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
