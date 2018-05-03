@@ -10,7 +10,7 @@
         "78b5f909-c61e-4bd8-8035-ffda52865d15"
     ],
     "filterType": "GMScript",
-    "folderName": "PlayerControlScripts",
+    "folderName": "PlayerControl Scripts",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

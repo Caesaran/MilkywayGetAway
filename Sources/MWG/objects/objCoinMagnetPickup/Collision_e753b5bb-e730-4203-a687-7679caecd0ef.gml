@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 588C0B01
-/// @DnDArgument : "expr" ""CoinMagnet""
+/// @DnDArgument : "expr" ""Coin Magnet""
 /// @DnDArgument : "var" "pickUpID"
-pickUpID = "CoinMagnet";
+pickUpID = "Coin Magnet";
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1

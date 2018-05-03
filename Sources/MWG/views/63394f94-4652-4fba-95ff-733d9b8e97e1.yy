@@ -6,10 +6,11 @@
     "children": [
         "eff2021b-5bf8-4076-a90a-cd134b9536e0",
         "98d271e2-9140-4f9b-9953-44213983704b",
+        "39c6004b-fce4-456d-85bb-5eea131542fc",
         "0a022f04-0697-411b-bd00-68e94b1ebff2"
     ],
     "filterType": "GMScript",
-    "folderName": "PowerupScripts",
+    "folderName": "Powerup & Pickup Scripts",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

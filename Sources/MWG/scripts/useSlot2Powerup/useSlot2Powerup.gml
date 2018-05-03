@@ -13,8 +13,8 @@ if(l12588A62_0)
 	/// @DnDParent : 12588A62
 	/// @DnDArgument : "var" "global.slot2PowerUp"
 	/// @DnDArgument : "not" "1"
-	/// @DnDArgument : "value" """"
-	if(!(global.slot2PowerUp == ""))
+	/// @DnDArgument : "value" ""-""
+	if(!(global.slot2PowerUp == "-"))
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -67,28 +67,28 @@ if(l12588A62_0)
 					/// @DnDVersion : 1
 					/// @DnDHash : 45864B5D
 					/// @DnDParent : 3604E5CE
-					/// @DnDArgument : "const" ""Slowdown""
-					case "Slowdown":
+					/// @DnDArgument : "const" ""Slow Time""
+					case "Slow Time":
 						/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 						/// @DnDVersion : 1
 						/// @DnDHash : 628A5C3B
 						/// @DnDParent : 45864B5D
-						/// @DnDArgument : "msg" ""Slowdown used!""
-						show_debug_message(string("Slowdown used!"));
+						/// @DnDArgument : "msg" ""Slow Time used!""
+						show_debug_message(string("Slow Time used!"));
 						break;
 				
 					/// @DnDAction : YoYo Games.Switch.Case
 					/// @DnDVersion : 1
 					/// @DnDHash : 4F1B46A8
 					/// @DnDParent : 3604E5CE
-					/// @DnDArgument : "const" ""CoinMagnet""
-					case "CoinMagnet":
+					/// @DnDArgument : "const" ""Coin Magnet""
+					case "Coin Magnet":
 						/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 						/// @DnDVersion : 1
 						/// @DnDHash : 6F8860DF
 						/// @DnDParent : 4F1B46A8
-						/// @DnDArgument : "msg" ""CoinMagnet used!""
-						show_debug_message(string("CoinMagnet used!"));
+						/// @DnDArgument : "msg" ""Coin Magnet used!""
+						show_debug_message(string("Coin Magnet used!"));
 						break;
 				
 					/// @DnDAction : YoYo Games.Switch.Case
@@ -127,9 +127,9 @@ if(l12588A62_0)
 					/// @DnDVersion : 1
 					/// @DnDHash : 1DF37CE0
 					/// @DnDParent : 2B60BF08
-					/// @DnDArgument : "value" """"
+					/// @DnDArgument : "value" ""-""
 					/// @DnDArgument : "var" "slot2PowerUp"
-					global.slot2PowerUp = "";
+					global.slot2PowerUp = "-";
 				}
 			}
 		}

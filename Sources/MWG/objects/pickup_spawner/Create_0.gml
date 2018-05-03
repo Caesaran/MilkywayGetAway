@@ -1,16 +1,19 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 7231AD89
-/// @DnDInput : 2
-/// @DnDArgument : "value_1" "room_speed * 5"
-/// @DnDArgument : "var" "coinSpawnSpeed"
-/// @DnDArgument : "var_1" "powerUpSpawnSpeed"
-global.coinSpawnSpeed = 0;
-global.powerUpSpawnSpeed = room_speed * 5;
+/// @DnDArgument : "value" "room_speed"
+/// @DnDArgument : "var" "pickupSpawnSpeed"
+global.pickupSpawnSpeed = room_speed;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 66F3D2C4
+/// @DnDArgument : "value" "5"
+/// @DnDArgument : "var" "pickupMovementSpeed"
+global.pickupMovementSpeed = 5;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 677B06D0
-/// @DnDArgument : "steps" "global.powerUpSpawnSpeed"
-/// @DnDArgument : "alarm" "1"
-alarm_set(1, global.powerUpSpawnSpeed);
+/// @DnDArgument : "steps" "global.pickupSpawnSpeed"
+alarm_set(0, global.pickupSpawnSpeed);

@@ -22,20 +22,13 @@ Powerup values for slot1PowerUp & slot2PowerUp:
 /// @DnDVersion : 1
 /// @DnDHash : 3AC85028
 /// @DnDInput : 4
-/// @DnDArgument : "value" """"
-/// @DnDArgument : "value_1" """"
+/// @DnDArgument : "value" ""-""
+/// @DnDArgument : "value_1" ""-""
 /// @DnDArgument : "var" "slot1PowerUp"
 /// @DnDArgument : "var_1" "slot2PowerUp"
 /// @DnDArgument : "var_2" "slot1PowerUpUses"
 /// @DnDArgument : "var_3" "slot2PowerUpUses"
-global.slot1PowerUp = "";
-global.slot2PowerUp = "";
+global.slot1PowerUp = "-";
+global.slot2PowerUp = "-";
 global.slot1PowerUpUses = 0;
 global.slot2PowerUpUses = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 0D9070ED
-/// @DnDArgument : "value" "3"
-/// @DnDArgument : "var" "pickupMovementSpeed"
-global.pickupMovementSpeed = 3;
