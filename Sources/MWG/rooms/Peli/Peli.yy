@@ -314,7 +314,7 @@
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
-            "vspeed": 1,
+            "vspeed": 2,
             "vtiled": true,
             "x": 0,
             "y": 0
