@@ -25,9 +25,9 @@ if(y == global.target_y)
 			/// @DnDVersion : 1
 			/// @DnDHash : 0F3C1A33
 			/// @DnDParent : 14150B96
-			/// @DnDArgument : "value" "y+95"
+			/// @DnDArgument : "value" "y+global.travelDistance"
 			/// @DnDArgument : "var" "target_y"
-			global.target_y = y+95;
+			global.target_y = y+global.travelDistance;
 		
 			/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 			/// @DnDVersion : 1

@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "2bd02b45-341c-4f7e-8f8d-ad36fa7a791b",
+            "Value": {
+                "id": "939681c4-7662-4933-9ad9-b9d79603030b",
+                "resourcePath": "scripts\\takeScreenShot\\takeScreenShot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2d7dd3b1-0aca-4c0f-b354-5a3606ca00ba",
             "Value": {
                 "id": "df57440b-fc64-456e-abd9-98925f344e9c",
@@ -767,6 +775,14 @@
             }
         },
         {
+            "Key": "bb4fbf44-203b-46b6-8495-3ff53ac67eeb",
+            "Value": {
+                "id": "7853610a-1e79-4cbb-991d-17965e5322ed",
+                "resourcePath": "sprites\\sprite_lanes\\sprite_lanes.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bbd654f4-b51e-44f6-804e-4374cc91869c",
             "Value": {
                 "id": "0251842e-4d7e-4d8b-96fb-26d7ac650300",
@@ -796,6 +812,14 @@
                 "id": "ead476bd-77ee-4d32-89b6-696937e968f7",
                 "resourcePath": "objects\\objCoinPickup\\objCoinPickup.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c71fec8f-95e4-418c-a213-4a6f4355110a",
+            "Value": {
+                "id": "93018d37-f16f-4f50-801a-2a84eaba1e9e",
+                "resourcePath": "sprites\\sprite_text_game_paused\\sprite_text_game_paused.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -860,6 +884,14 @@
                 "id": "60337a86-7bc2-4617-bbef-90f32cbca473",
                 "resourcePath": "sprites\\sprite_player\\sprite_player.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "db4cb02a-1e9a-4244-9ee8-2260e0de0f07",
+            "Value": {
+                "id": "90da8d2a-4def-4aad-8c6f-5c45abe46859",
+                "resourcePath": "objects\\objGamePaused\\objGamePaused.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1050,7 +1082,8 @@
         "78b5f909-c61e-4bd8-8035-ffda52865d15",
         "1d67d224-75d2-48cb-90a8-90d40a01bbb9",
         "358a7790-827b-4b88-9a75-00a97e23f414",
-        "66733594-3dbf-4d2b-8067-a5133d3ec73a"
+        "66733594-3dbf-4d2b-8067-a5133d3ec73a",
+        "2bd02b45-341c-4f7e-8f8d-ad36fa7a791b"
     ],
     "tutorial": ""
 }

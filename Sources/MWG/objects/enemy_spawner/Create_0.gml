@@ -9,21 +9,21 @@ global.scriptIsRunning = false;
 /// @DnDVersion : 1
 /// @DnDHash : 69CEC4F0
 /// @DnDInput : 5
-/// @DnDArgument : "value" "770"
-/// @DnDArgument : "value_1" "865"
+/// @DnDArgument : "value" "660"
+/// @DnDArgument : "value_1" "810"
 /// @DnDArgument : "value_2" "960"
-/// @DnDArgument : "value_3" "1055"
-/// @DnDArgument : "value_4" "1150"
+/// @DnDArgument : "value_3" "1110"
+/// @DnDArgument : "value_4" "1260"
 /// @DnDArgument : "var" "spawnLane0"
 /// @DnDArgument : "var_1" "spawnLane1"
 /// @DnDArgument : "var_2" "spawnLane2"
 /// @DnDArgument : "var_3" "spawnLane3"
 /// @DnDArgument : "var_4" "spawnLane4"
-global.spawnLane0 = 770;
-global.spawnLane1 = 865;
+global.spawnLane0 = 660;
+global.spawnLane1 = 810;
 global.spawnLane2 = 960;
-global.spawnLane3 = 1055;
-global.spawnLane4 = 1150;
+global.spawnLane3 = 1110;
+global.spawnLane4 = 1260;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

@@ -6,7 +6,8 @@
     "children": [
         "45a6fd19-9d8c-4598-8f35-1819f5bf339e",
         "5c3a9b26-62a3-4766-bb47-3e69cbfb224f",
-        "909ffc59-136b-4120-809d-eb0ea30e993d"
+        "909ffc59-136b-4120-809d-eb0ea30e993d",
+        "db4cb02a-1e9a-4244-9ee8-2260e0de0f07"
     ],
     "filterType": "GMObject",
     "folderName": "Unclickable",
