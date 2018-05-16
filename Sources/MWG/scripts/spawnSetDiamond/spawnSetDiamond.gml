@@ -1,8 +1,9 @@
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 2D2D492D
+/// @DnDDisabled : 1
 /// @DnDArgument : "msg" ""Running spawnSetDiamond""
-show_debug_message(string("Running spawnSetDiamond"));
+
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1

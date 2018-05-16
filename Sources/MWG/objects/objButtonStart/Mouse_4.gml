@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 6831BB02
+/// @DnDArgument : "soundid" "menu_press"
+audio_play_sound(menu_press, 0, 0);
+
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 7E59DEE3

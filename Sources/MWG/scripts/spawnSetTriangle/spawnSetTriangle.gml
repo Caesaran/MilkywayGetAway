@@ -1,8 +1,9 @@
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 5D3CDE16
+/// @DnDDisabled : 1
 /// @DnDArgument : "msg" ""Running spawnSetTriangle""
-show_debug_message(string("Running spawnSetTriangle"));
+
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1

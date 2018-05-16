@@ -1,8 +1,9 @@
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 476CCA54
+/// @DnDDisabled : 1
 /// @DnDArgument : "msg" ""Running spawnSetDiamondOffset""
-show_debug_message(string("Running spawnSetDiamondOffset"));
+
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1

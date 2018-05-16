@@ -1,8 +1,9 @@
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 129B0A0F
+/// @DnDDisabled : 1
 /// @DnDArgument : "msg" ""Running spawnSetLineRight""
-show_debug_message(string("Running spawnSetLineRight"));
+
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1

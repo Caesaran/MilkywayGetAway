@@ -1,8 +1,9 @@
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 1169514D
+/// @DnDDisabled : 1
 /// @DnDArgument : "msg" ""Running spawnSetTriangleReverse""
-show_debug_message(string("Running spawnSetTriangleReverse"));
+
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1

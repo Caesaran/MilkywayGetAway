@@ -9,3 +9,10 @@ alarm_set(0, 30);
 /// @DnDArgument : "speed" "-10"
 /// @DnDArgument : "type" "2"
 vspeed = -10;
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 1D1A849F
+/// @DnDArgument : "soundid" "bomb_use"
+/// @DnDSaveInfo : "soundid" "133a700f-a874-4e8d-b10e-dcdc52336db3"
+audio_play_sound(bomb_use, 0, 0);

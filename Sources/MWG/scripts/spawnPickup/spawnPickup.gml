@@ -1,51 +1,58 @@
 /*
 PICKUP DROP CHANCES:
-	Coin: 90% (0-89)
-	Powerup: 10% (89-99)
-		- Bomb: 2.5% (89-91.5)
-		- Shield: 2.5% (91.5-94)
-		- Slow Time: 2.5% (94-96.5)
-		- Coin Pickup: 2.5% (96.5-99)
+	Coin: 90% (0-899)
+		- Bronze: 75% (0-749)
+		- Silver: 10% (750-849)
+		- Gold: 5% (850-899)
+	Powerup: 10% (900-999)
+		- Bomb: 2.5% (900-924)
+		- Shield: 2.5% (925-949)
+		- Slow Time: 2.5% (950-974)
+		- Coin Pickup: 2.5% (975-999)
 */
 
-/*
-CURRENT DROP CHANCES (for testing):
-	Coin: 90% (0-89)
-	Powerup: 10% (89-99)
-		- Bomb: 2.5% (89-91.5)
-		- Shield: 2.5% (91.5-94)
-		- Slow Time: 2.5% (94-96.5)
-		- Coin Pickup: 2.5% (96.5-99)
-*/
-
-var randomNumber = random_range(0, 99);
+var randomNumber =  irandom_range(0, 999);
 var selectedPickup = "", selectedLane = "";
 
-if(randomNumber >= 0 && randomNumber < 89) {
+if(randomNumber >= 0 && randomNumber <= 899) {
 	//Coin
-	selectedPickup = objCoinPickup;
+	
+	if(randomNumber >= 0 && randomNumber <= 749) {
+		//Bronze coin
+		selectedPickup = objCoinBronze;
+	}
+	
+	if(randomNumber >= 750 && randomNumber <= 849) {
+		//Silver coin
+		selectedPickup = objCoinSilver;
+	}
+	
+	if(randomNumber >= 850 && randomNumber <= 899) {
+		//Gold coin
+		selectedPickup = objCoinGold;
+	}
 }
-else if (randomNumber >= 89 && randomNumber <= 99) {
+else if (randomNumber >= 900 && randomNumber <= 999) {
 	//PowerUp
 	
-	if(randomNumber >= 89 && randomNumber <= 91.5) {
+	if(randomNumber >= 900 && randomNumber <= 924) {
 		//Bomb
 		selectedPickup = objBombPickup;
 	}
 	
-	if(randomNumber >= 91.5 && randomNumber <= 94) {
+	if(randomNumber >= 925 && randomNumber <= 949) {
 		//Shield
 		selectedPickup = objShieldPickup;
 	}
 	
-	if(randomNumber >= 94 && randomNumber <= 96.5) {
+	if(randomNumber >= 950 && randomNumber <= 974) {
 		//Slow Time
 		selectedPickup = objSlowTimePickup;
 	}
 	
-	if(randomNumber >= 96.5 && randomNumber <= 99) {
-		//Coin Magnet
-		selectedPickup = objCoinMagnetPickup;
+	if(randomNumber >= 975 && randomNumber <= 999) {
+		//Laser
+		selectedPickup = objLaserPickup;
 	}
 }
 
@@ -57,5 +64,5 @@ if(selectedPickup != "") {
 	alarm_set(0, global.pickupSpawnSpeed);
 }
 
-show_debug_message("RandomNumber: " + string(randomNumber));
-show_debug_message("SelectedPickup: " + string(selectedPickup));
+//show_debug_message("RandomNumber: " + string(randomNumber));
+//show_debug_message("SelectedPickup: " + string(selectedPickup));

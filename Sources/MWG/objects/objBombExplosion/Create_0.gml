@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 56706EDF
+/// @DnDArgument : "soundid" "bomb_explosion"
+audio_play_sound(bomb_explosion, 0, 0);
+
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 53587D0D

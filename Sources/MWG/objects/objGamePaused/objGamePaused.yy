@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "objGamePaused",
     "eventList": [
-        
+        {
+            "id": "c449461e-ab74-4003-8c36-d83f3dfc5a29",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "db4cb02a-1e9a-4244-9ee8-2260e0de0f07"
+        },
+        {
+            "id": "06562c58-0e68-4929-bfaf-375eef6d477e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "db4cb02a-1e9a-4244-9ee8-2260e0de0f07"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

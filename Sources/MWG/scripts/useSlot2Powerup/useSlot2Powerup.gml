@@ -52,15 +52,16 @@ if(l12588A62_0)
 						/// @DnDArgument : "msg" ""Bomb used!""
 						show_debug_message(string("Bomb used!"));
 					
-						/// @DnDAction : YoYo Games.Instances.Create_Instance
-						/// @DnDVersion : 1
-						/// @DnDHash : 1DAFD4A4
+						/// @DnDAction : YoYo Games.Common.Execute_Script
+						/// @DnDVersion : 1.1
+						/// @DnDHash : 635027BF
+						/// @DnDInput : 2
 						/// @DnDParent : 1AC817FA
-						/// @DnDArgument : "xpos" "objPlayer.x"
-						/// @DnDArgument : "ypos" "objPlayer.y"
-						/// @DnDArgument : "objectid" "objBomb"
-						/// @DnDSaveInfo : "objectid" "9b2e736e-0655-4e41-89ec-647fa9f54c4b"
-						instance_create_layer(objPlayer.x, objPlayer.y, "Instances", objBomb);
+						/// @DnDArgument : "script" "bombScript"
+						/// @DnDArgument : "arg" "objPlayer.x"
+						/// @DnDArgument : "arg_1" "objPlayer.y"
+						/// @DnDSaveInfo : "script" "d71c82c0-7b8b-41f9-afb2-59f63971d26c"
+						script_execute(bombScript, objPlayer.x, objPlayer.y);
 						break;
 				
 					/// @DnDAction : YoYo Games.Switch.Case
@@ -75,20 +76,39 @@ if(l12588A62_0)
 						/// @DnDParent : 45864B5D
 						/// @DnDArgument : "msg" ""Slow Time used!""
 						show_debug_message(string("Slow Time used!"));
+					
+						/// @DnDAction : YoYo Games.Common.Execute_Script
+						/// @DnDVersion : 1.1
+						/// @DnDHash : 7F76AB5B
+						/// @DnDParent : 45864B5D
+						/// @DnDArgument : "script" "slowTimeScript"
+						/// @DnDSaveInfo : "script" "207327b2-9f92-414a-b252-e7303fcc9642"
+						script_execute(slowTimeScript);
 						break;
 				
 					/// @DnDAction : YoYo Games.Switch.Case
 					/// @DnDVersion : 1
 					/// @DnDHash : 4F1B46A8
 					/// @DnDParent : 3604E5CE
-					/// @DnDArgument : "const" ""Coin Magnet""
-					case "Coin Magnet":
+					/// @DnDArgument : "const" ""Laser""
+					case "Laser":
 						/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 						/// @DnDVersion : 1
 						/// @DnDHash : 6F8860DF
 						/// @DnDParent : 4F1B46A8
-						/// @DnDArgument : "msg" ""Coin Magnet used!""
-						show_debug_message(string("Coin Magnet used!"));
+						/// @DnDArgument : "msg" ""Laser Used!""
+						show_debug_message(string("Laser Used!"));
+					
+						/// @DnDAction : YoYo Games.Common.Execute_Script
+						/// @DnDVersion : 1.1
+						/// @DnDHash : 15DDCE01
+						/// @DnDInput : 2
+						/// @DnDParent : 4F1B46A8
+						/// @DnDArgument : "script" "laserScript"
+						/// @DnDArgument : "arg" "objPlayer.x"
+						/// @DnDArgument : "arg_1" "objPlayer.y"
+						/// @DnDSaveInfo : "script" "66c18e34-71b8-4250-abc3-b540b6e4c6ff"
+						script_execute(laserScript, objPlayer.x, objPlayer.y);
 						break;
 				
 					/// @DnDAction : YoYo Games.Switch.Case
@@ -103,6 +123,17 @@ if(l12588A62_0)
 						/// @DnDParent : 3076D538
 						/// @DnDArgument : "msg" ""Shield used!""
 						show_debug_message(string("Shield used!"));
+					
+						/// @DnDAction : YoYo Games.Common.Execute_Script
+						/// @DnDVersion : 1.1
+						/// @DnDHash : 783AEE6A
+						/// @DnDInput : 2
+						/// @DnDParent : 3076D538
+						/// @DnDArgument : "script" "shieldScript"
+						/// @DnDArgument : "arg" "objPlayer.x"
+						/// @DnDArgument : "arg_1" "objPlayer.y"
+						/// @DnDSaveInfo : "script" "8f7748a5-c7f5-470c-bc68-21ec1838afdf"
+						script_execute(shieldScript, objPlayer.x, objPlayer.y);
 						break;
 				}
 			

@@ -1,6 +1,6 @@
-/// @DnDAction : YoYo Games.Movement.Set_Speed
-/// @DnDVersion : 1
-/// @DnDHash : 5B039344
-/// @DnDArgument : "speed" "global.pickupMovementSpeed"
-/// @DnDArgument : "type" "2"
-vspeed = global.pickupMovementSpeed;
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 5181B49B
+/// @DnDArgument : "script" "setPickupSpeed"
+/// @DnDSaveInfo : "script" "5bb470f4-1f84-467e-b520-f8679fff8fe1"
+script_execute(setPickupSpeed);
