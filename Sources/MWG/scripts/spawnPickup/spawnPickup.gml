@@ -16,17 +16,14 @@ var selectedPickup = "", selectedLane = "";
 
 if(randomNumber >= 0 && randomNumber <= 899) {
 	//Coin
-	
 	if(randomNumber >= 0 && randomNumber <= 749) {
 		//Bronze coin
 		selectedPickup = objCoinBronze;
 	}
-	
 	if(randomNumber >= 750 && randomNumber <= 849) {
 		//Silver coin
 		selectedPickup = objCoinSilver;
 	}
-	
 	if(randomNumber >= 850 && randomNumber <= 899) {
 		//Gold coin
 		selectedPickup = objCoinGold;
@@ -34,22 +31,18 @@ if(randomNumber >= 0 && randomNumber <= 899) {
 }
 else if (randomNumber >= 900 && randomNumber <= 999) {
 	//PowerUp
-	
 	if(randomNumber >= 900 && randomNumber <= 924) {
 		//Bomb
 		selectedPickup = objBombPickup;
 	}
-	
 	if(randomNumber >= 925 && randomNumber <= 949) {
 		//Shield
 		selectedPickup = objShieldPickup;
 	}
-	
 	if(randomNumber >= 950 && randomNumber <= 974) {
 		//Slow Time
 		selectedPickup = objSlowTimePickup;
 	}
-	
 	if(randomNumber >= 975 && randomNumber <= 999) {
 		//Laser
 		selectedPickup = objLaserPickup;
@@ -63,6 +56,3 @@ if(selectedPickup != "") {
 
 	alarm_set(0, global.pickupSpawnSpeed);
 }
-
-//show_debug_message("RandomNumber: " + string(randomNumber));
-//show_debug_message("SelectedPickup: " + string(selectedPickup));

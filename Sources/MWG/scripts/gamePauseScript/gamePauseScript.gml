@@ -1,9 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 658CAF47
-/// @DnDArgument : "code" "/* This script is executed when the player presses Esc or P in game */$(13_10)// WORK IN PROGRESS!!!"
-/* This script is executed when the player presses Esc or P in game */
-// WORK IN PROGRESS!!!/**/
+/// @DnDArgument : "code" "/* This script is executed when the player presses Esc or P in game */"
+/* This script is executed when the player presses Esc or P in game *//**/
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -19,11 +18,20 @@ if(global.isGamePaused == false)
 	/// @DnDArgument : "msg" ""Pausing game...""
 	show_debug_message(string("Pausing game..."));
 
+	/// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
+	/// @DnDVersion : 1
+	/// @DnDHash : 39C04FCB
+	/// @DnDParent : 31857612
+	/// @DnDArgument : "sound" "BG_music"
+	/// @DnDArgument : "volume" "0.5"
+	/// @DnDSaveInfo : "sound" "1c7a80ac-22b6-48db-8c0d-7bfefadbf299"
+	audio_sound_gain(BG_music, 0.5, 0);
+
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
 	/// @DnDHash : 2F55F4C7
 	/// @DnDParent : 31857612
-	/// @DnDArgument : "code" "//Take a screenshot and create a sprite:$(13_10)var screenShot = takeScreenShot();$(13_10)var layer_id = layer_get_id("PauseScreen");$(13_10)layer_sprite_create(layer_id, 0, 0, screenShot);$(13_10)$(13_10)//Set sprite to PauseScreen layer:$(13_10)var back_id = layer_background_get_id(layer_id);$(13_10)layer_background_sprite(back_id, screenShot);$(13_10)$(13_10)//show_debug_message("PauseScreen sprite index: " + string(layer_background_get_sprite(back_id)));$(13_10)//show_debug_message("PauseScreen sprite name: " + string(sprite_get_name(layer_background_get_sprite(back_id))));$(13_10)$(13_10)//Deactivate all:$(13_10)instance_deactivate_all(true);$(13_10)$(13_10)//Activate Instances_PauseScreen layer:$(13_10)layer_id = layer_get_id("Instances_PauseScreen");$(13_10)layer_set_visible(layer_id, true);$(13_10)instance_activate_layer(layer_id);$(13_10)$(13_10)//Set Instances_PauseScreen layer visible:$(13_10)layer_id = layer_get_id("PauseScreen");$(13_10)layer_set_visible(layer_id, true);$(13_10)$(13_10)//Set background vertical speed to 0:$(13_10)layer_id = layer_get_id("Background_Space");$(13_10)layer_vspeed(layer_id, 0);$(13_10)$(13_10)//layer_id = layer_get_id("Instances");$(13_10)//layer_set_visible(layer_id, true);$(13_10)$(13_10)//instance_activate_object(score_hud_display);$(13_10)//instance_activate_object(coin_hud_display);$(13_10)//instance_activate_object(powerup_system);$(13_10)//instance_activate_object(objPlayer);$(13_10)$(13_10)"
+	/// @DnDArgument : "code" "//Take a screenshot and create a sprite:$(13_10)var screenShot = takeScreenShot();$(13_10)var layer_id = layer_get_id("PauseScreen");$(13_10)layer_sprite_create(layer_id, 0, 0, screenShot);$(13_10)$(13_10)//Set sprite to PauseScreen layer:$(13_10)var back_id = layer_background_get_id(layer_id);$(13_10)layer_background_sprite(back_id, screenShot);$(13_10)$(13_10)//Deactivate all instances:$(13_10)instance_deactivate_all(true);$(13_10)$(13_10)//Activate Instances_PauseScreen layer:$(13_10)layer_id = layer_get_id("Instances_PauseScreen");$(13_10)layer_set_visible(layer_id, true);$(13_10)instance_activate_layer(layer_id);$(13_10)$(13_10)//Set Instances_PauseScreen layer visible:$(13_10)layer_id = layer_get_id("PauseScreen");$(13_10)layer_set_visible(layer_id, true);$(13_10)$(13_10)//Set background vertical speed to 0:$(13_10)layer_id = layer_get_id("Background_Space");$(13_10)layer_vspeed(layer_id, 0);$(13_10)$(13_10)//Pause sound effects that are playing:$(13_10)// ??? :D ?$(13_10)audio_group_stop_all(audiogroup_powerup);$(13_10)"
 	//Take a screenshot and create a sprite:
 	var screenShot = takeScreenShot();
 	var layer_id = layer_get_id("PauseScreen");
@@ -33,10 +41,7 @@ if(global.isGamePaused == false)
 	var back_id = layer_background_get_id(layer_id);
 	layer_background_sprite(back_id, screenShot);
 	
-	//show_debug_message("PauseScreen sprite index: " + string(layer_background_get_sprite(back_id)));
-	//show_debug_message("PauseScreen sprite name: " + string(sprite_get_name(layer_background_get_sprite(back_id))));
-	
-	//Deactivate all:
+	//Deactivate all instances:
 	instance_deactivate_all(true);
 	
 	//Activate Instances_PauseScreen layer:
@@ -52,13 +57,9 @@ if(global.isGamePaused == false)
 	layer_id = layer_get_id("Background_Space");
 	layer_vspeed(layer_id, 0);
 	
-	//layer_id = layer_get_id("Instances");
-	//layer_set_visible(layer_id, true);
-	
-	//instance_activate_object(score_hud_display);
-	//instance_activate_object(coin_hud_display);
-	//instance_activate_object(powerup_system);
-	//instance_activate_object(objPlayer);
+	//Pause sound effects that are playing:
+	// ??? :D ?
+	audio_group_stop_all(audiogroup_powerup);
 
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
@@ -88,6 +89,15 @@ else
 		/// @DnDParent : 675263AE
 		/// @DnDArgument : "msg" ""Unpausing game...""
 		show_debug_message(string("Unpausing game..."));
+	
+		/// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
+		/// @DnDVersion : 1
+		/// @DnDHash : 4B293A07
+		/// @DnDParent : 675263AE
+		/// @DnDArgument : "sound" "BG_music"
+		/// @DnDArgument : "volume" "1.0"
+		/// @DnDSaveInfo : "sound" "1c7a80ac-22b6-48db-8c0d-7bfefadbf299"
+		audio_sound_gain(BG_music, 1.0, 0);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Code
 		/// @DnDVersion : 1

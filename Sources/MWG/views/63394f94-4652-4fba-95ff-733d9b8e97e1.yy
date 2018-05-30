@@ -11,7 +11,8 @@
         "d71c82c0-7b8b-41f9-afb2-59f63971d26c",
         "8f7748a5-c7f5-470c-bc68-21ec1838afdf",
         "207327b2-9f92-414a-b252-e7303fcc9642",
-        "66c18e34-71b8-4250-abc3-b540b6e4c6ff"
+        "66c18e34-71b8-4250-abc3-b540b6e4c6ff",
+        "5bb470f4-1f84-467e-b520-f8679fff8fe1"
     ],
     "filterType": "GMScript",
     "folderName": "Powerup & Pickup Scripts",

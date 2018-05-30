@@ -9,7 +9,7 @@ if(global.isGamePaused == false)
 	/// @DnDVersion : 1
 	/// @DnDHash : 15DA572D
 	/// @DnDParent : 1CAAF021
-	/// @DnDArgument : "angle" "+1"
+	/// @DnDArgument : "angle" "+rotationDirection"
 	/// @DnDArgument : "angle_relative" "1"
-	image_angle += +1;
+	image_angle += +rotationDirection;
 }

@@ -1,11 +1,11 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2889897E
-/// @DnDArgument : "code" "/*$(13_10)	argument0 = powerup ID from pickup object$(13_10)	$(13_10)	This code checks if a picked up powerup can fill any of the two slots.$(13_10)	If the power up already exists in a slot, the powerup is not added to the other slot.$(13_10)	If both slots are full, the powerup is not added.$(13_10)*/"
+/// @DnDArgument : "code" "/*$(13_10)	argument0 = powerup ID from pickup object$(13_10)	$(13_10)	This script checks if a picked up powerup can fill any of the two slots.$(13_10)	If the power up already exists in a slot, the powerup is not added to the other slot.$(13_10)	If both slots are full, the powerup is not added.$(13_10)*/"
 /*
 	argument0 = powerup ID from pickup object
 	
-	This code checks if a picked up powerup can fill any of the two slots.
+	This script checks if a picked up powerup can fill any of the two slots.
 	If the power up already exists in a slot, the powerup is not added to the other slot.
 	If both slots are full, the powerup is not added.
 *//**/

@@ -12,7 +12,7 @@
         "50bf6191-0ed9-4aa7-9559-3fcd7fe2fd90"
     ],
     "filterType": "GMSprite",
-    "folderName": "MenuUI \/ Controls",
+    "folderName": "Menu \/ Controls",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

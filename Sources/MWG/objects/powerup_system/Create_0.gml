@@ -1,18 +1,16 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 172FE544
-/// @DnDArgument : "code" "/*$(13_10)Powerup values for slot1PowerUp & slot2PowerUp:$(13_10)	Bomb = "Bomb"$(13_10)	Slowdown = "Slowdown"$(13_10)	Coin Magnet = "CoinMagnet"$(13_10)	Shield = "Shield"$(13_10)	$(13_10)	When a button is pressed, the code checks if the slot that matches the button is empty or not.$(13_10)	If the player has a powerup equipped in a slot, the powerup type is checked and it is used.$(13_10)	If a powerup has multiple uses (e.g. when slot1PowerUpUses = 3), the number of uses is decreased by 1.$(13_10)	If a powerup has no more uses left, the powerup is removed from the slot it is in. $(13_10)	$(13_10)	Powerup Pickups$(13_10)	Check script pickUpPowerUp$(13_10)*/"
+/// @DnDArgument : "code" "/*$(13_10)Powerup values for slot1PowerUp & slot2PowerUp:$(13_10)	Bomb = "Bomb"$(13_10)	Slowdown = "Slowdown"$(13_10)	Laser = "Laser"$(13_10)	Shield = "Shield"$(13_10)	$(13_10)	When a button is pressed, the code checks if the slot that matches the button is empty or not.$(13_10)	If the player has a powerup equipped in a slot, the powerup type is checked and it is used.$(13_10)	$(13_10)	Powerup Pickups$(13_10)	Check script pickUpPowerUp$(13_10)*/"
 /*
 Powerup values for slot1PowerUp & slot2PowerUp:
 	Bomb = "Bomb"
 	Slowdown = "Slowdown"
-	Coin Magnet = "CoinMagnet"
+	Laser = "Laser"
 	Shield = "Shield"
 	
 	When a button is pressed, the code checks if the slot that matches the button is empty or not.
 	If the player has a powerup equipped in a slot, the powerup type is checked and it is used.
-	If a powerup has multiple uses (e.g. when slot1PowerUpUses = 3), the number of uses is decreased by 1.
-	If a powerup has no more uses left, the powerup is removed from the slot it is in. 
 	
 	Powerup Pickups
 	Check script pickUpPowerUp
