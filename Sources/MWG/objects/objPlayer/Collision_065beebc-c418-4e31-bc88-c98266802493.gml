@@ -13,13 +13,6 @@ playerIsDie = script_execute(playerDeathCheck);
 /// @DnDArgument : "value" "true"
 if(playerIsDie == true)
 {
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 7E4809D2
-	/// @DnDParent : 1D384AF2
-	/// @DnDArgument : "msg" ""kaboom""
-	show_debug_message(string("kaboom"));
-
 	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 217F0B99

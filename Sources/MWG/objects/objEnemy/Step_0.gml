@@ -15,13 +15,17 @@ if(enemyAlarm0Timer == enemyAlarm0Max) {
 	var l68BBCD4D_0 = false;
 	l68BBCD4D_0 = instance_exists(objPlayer);
 	if(l68BBCD4D_0) {
+		enemyAlarm0Timer = 0;
+		
 		//Choose a tile at random:
 		selectedLane = choose(global.spawnLane0, global.spawnLane1, global.spawnLane2, global.spawnLane3, global.spawnLane4);
 		selectedRow = choose(global.gridRow0, global.gridRow1, global.gridRow2);
 			
 		//Create a warning sign at selected tile:
 		instance_create_layer(selectedLane, selectedRow, "Instances_Top", objWarning);
-		enemyAlarm0Timer = 0;
+		
+		//Create a projectile:
+		instance_create_layer(x, y, "Instances", objEnemyBomb);
 	}
 }
 

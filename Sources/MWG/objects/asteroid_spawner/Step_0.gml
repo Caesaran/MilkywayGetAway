@@ -11,8 +11,10 @@ if(l7E72BFB0_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 39EE07D8
 	/// @DnDParent : 7E72BFB0
-	/// @DnDArgument : "code" "spawnTimer += global.slowTimeModifier;$(13_10)$(13_10)if(spawnTimer >= spawnTimerMax) {$(13_10)	spawnTimer = 0;	$(13_10)	var l76376407_0 = false;$(13_10)	l76376407_0 = instance_exists(objPlayer);$(13_10)	if(l76376407_0)$(13_10)	{$(13_10)		var selectedSet = choose(spawnSetDiamond, spawnSetDiamondDouble, $(13_10)		spawnSetDiamondOffset, spawnSetLineLeft, spawnSetLineRight, $(13_10)		spawnSetTriangle, spawnSetTriangleReverse, spawnSetX);$(13_10)$(13_10)		show_debug_message("Spawning set...");$(13_10)		script_execute(selectedSet);$(13_10)	}$(13_10)}"
-	spawnTimer += global.slowTimeModifier;
+	/// @DnDArgument : "code" "if(!global.isGamePaused) {$(13_10)	spawnTimer += global.slowTimeModifier;$(13_10)}$(13_10)$(13_10)if(spawnTimer >= spawnTimerMax) {$(13_10)	spawnTimer = 0;	$(13_10)	var l76376407_0 = false;$(13_10)	l76376407_0 = instance_exists(objPlayer);$(13_10)	if(l76376407_0)$(13_10)	{$(13_10)		var selectedSet = choose(spawnSetDiamond, spawnSetDiamondDouble, $(13_10)		spawnSetDiamondOffset, spawnSetLineLeft, spawnSetLineRight, $(13_10)		spawnSetTriangle, spawnSetTriangleReverse, spawnSetX);$(13_10)$(13_10)		show_debug_message("Spawning set...");$(13_10)		script_execute(selectedSet);$(13_10)	}$(13_10)}"
+	if(!global.isGamePaused) {
+		spawnTimer += global.slowTimeModifier;
+	}
 	
 	if(spawnTimer >= spawnTimerMax) {
 		spawnTimer = 0;	

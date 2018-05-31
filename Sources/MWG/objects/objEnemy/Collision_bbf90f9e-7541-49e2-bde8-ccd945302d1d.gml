@@ -1,4 +1,5 @@
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDAction : YoYo Games.Instances.Change_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 2E9FC11E
-instance_destroy();
+/// @DnDHash : 52955C9A
+/// @DnDArgument : "objind" "objBombExplosion"
+instance_change(objBombExplosion, true);

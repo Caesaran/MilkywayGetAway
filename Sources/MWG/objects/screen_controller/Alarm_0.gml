@@ -7,6 +7,12 @@ layer_set_visible(layer_id, true);
 layer_id = layer_get_id("Instances_GameOverScreen");
 layer_set_visible(layer_id, true);
 
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 7565FAFC
+/// @DnDArgument : "code" "highscore_add("lol", global.scoreCounter);"
+highscore_add("lol", global.scoreCounter);
+
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
 /// @DnDHash : 255EF9EC

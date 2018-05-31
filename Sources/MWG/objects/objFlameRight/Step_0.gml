@@ -11,11 +11,9 @@ if(l6CC2E69E_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3134A3BE
 	/// @DnDParent : 6CC2E69E
-	/// @DnDArgument : "code" "hspeed = objPlayer.hspeed;$(13_10)vspeed = objPlayer.vspeed;$(13_10)$(13_10)show_debug_message("sprite: " + string(sprite_get_name(objPlayer.sprite_index)));$(13_10)$(13_10)var playerSprite = sprite_get_name(objPlayer.sprite_index);$(13_10)$(13_10)if(playerSprite = "sprite_player_still") {$(13_10)	x = objPlayer.x + 27;$(13_10)	y = objPlayer.y + 41;$(13_10)}$(13_10)else if(playerSprite = "sprite_player_left") {$(13_10)	if(objPlayer.image_index = 1) {$(13_10)		x = objPlayer.x + 6;$(13_10)		y = objPlayer.y + 42;$(13_10)	}$(13_10)	else {$(13_10)		x = objPlayer.x + 9;$(13_10)		y = objPlayer.y + 42;$(13_10)	}$(13_10)}$(13_10)else if(playerSprite = "sprite_player_right") {$(13_10)	if(objPlayer.image_index = 1) {$(13_10)		x = objPlayer.x + 15;$(13_10)		y = objPlayer.y + 40;$(13_10)	}$(13_10)	$(13_10)	else {$(13_10)		x = objPlayer.x + 19;$(13_10)		y = objPlayer.y + 40;$(13_10)	}$(13_10)}"
+	/// @DnDArgument : "code" "hspeed = objPlayer.hspeed;$(13_10)vspeed = objPlayer.vspeed;$(13_10)$(13_10)var playerSprite = sprite_get_name(objPlayer.sprite_index);$(13_10)$(13_10)if(playerSprite = "sprite_player_still") {$(13_10)	x = objPlayer.x + 27;$(13_10)	y = objPlayer.y + 41;$(13_10)}$(13_10)else if(playerSprite = "sprite_player_left") {$(13_10)	//Different x & y for second frame of the animation:$(13_10)	if(objPlayer.image_index = 1) {$(13_10)		x = objPlayer.x + 6;$(13_10)		y = objPlayer.y + 42;$(13_10)	}$(13_10)	else {$(13_10)		x = objPlayer.x + 9;$(13_10)		y = objPlayer.y + 42;$(13_10)	}$(13_10)}$(13_10)else if(playerSprite = "sprite_player_right") {$(13_10)	//Different x & y for second frame of the animation:$(13_10)	if(objPlayer.image_index = 1) {$(13_10)		x = objPlayer.x + 15;$(13_10)		y = objPlayer.y + 40;$(13_10)	}$(13_10)	$(13_10)	else {$(13_10)		x = objPlayer.x + 19;$(13_10)		y = objPlayer.y + 40;$(13_10)	}$(13_10)}"
 	hspeed = objPlayer.hspeed;
 	vspeed = objPlayer.vspeed;
-	
-	show_debug_message("sprite: " + string(sprite_get_name(objPlayer.sprite_index)));
 	
 	var playerSprite = sprite_get_name(objPlayer.sprite_index);
 	
@@ -24,6 +22,7 @@ if(l6CC2E69E_0)
 		y = objPlayer.y + 41;
 	}
 	else if(playerSprite = "sprite_player_left") {
+		//Different x & y for second frame of the animation:
 		if(objPlayer.image_index = 1) {
 			x = objPlayer.x + 6;
 			y = objPlayer.y + 42;
@@ -34,6 +33,7 @@ if(l6CC2E69E_0)
 		}
 	}
 	else if(playerSprite = "sprite_player_right") {
+		//Different x & y for second frame of the animation:
 		if(objPlayer.image_index = 1) {
 			x = objPlayer.x + 15;
 			y = objPlayer.y + 40;

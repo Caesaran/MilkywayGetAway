@@ -11,8 +11,10 @@ if(l6771A7A6_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3683E253
 	/// @DnDParent : 6771A7A6
-	/// @DnDArgument : "code" "enemySpawnTimer += global.slowTimeModifier;$(13_10)$(13_10)if(enemySpawnTimer >= enemySpawnTimerMax) {$(13_10)	enemySpawnTimer = 0;$(13_10)	$(13_10)	// select a row:$(13_10)	var selectedRow = choose(global.spawnLane0, global.spawnLane1, global.spawnLane2, global.spawnLane3, global.spawnLane4);$(13_10)	$(13_10)	//spawn enemy:$(13_10)	instance_create_layer(selectedRow, global.spawnRowEnemy, "Instances", objEnemy);$(13_10)	show_debug_message("Spawning enemy...");$(13_10)}"
-	enemySpawnTimer += global.slowTimeModifier;
+	/// @DnDArgument : "code" "if(!global.isGamePaused) {$(13_10)	enemySpawnTimer += global.slowTimeModifier;$(13_10)}$(13_10)$(13_10)if(enemySpawnTimer >= enemySpawnTimerMax) {$(13_10)	enemySpawnTimer = 0;$(13_10)	$(13_10)	// select a row:$(13_10)	var selectedRow = choose(global.spawnLane0, global.spawnLane1, global.spawnLane2, global.spawnLane3, global.spawnLane4);$(13_10)	$(13_10)	//spawn enemy:$(13_10)	instance_create_layer(selectedRow, global.spawnRowEnemy, "Instances", objEnemy);$(13_10)	show_debug_message("Spawning enemy...");$(13_10)}"
+	if(!global.isGamePaused) {
+		enemySpawnTimer += global.slowTimeModifier;
+	}
 	
 	if(enemySpawnTimer >= enemySpawnTimerMax) {
 		enemySpawnTimer = 0;
