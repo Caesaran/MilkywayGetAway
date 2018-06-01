@@ -22,8 +22,8 @@ draw_set_valign(fa_top);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 67EFE3C0
-/// @DnDArgument : "x" "1905"
-/// @DnDArgument : "y" "15"
+/// @DnDArgument : "x" "1895"
+/// @DnDArgument : "y" "25"
 /// @DnDArgument : "caption" ""Coins: ""
 /// @DnDArgument : "var" "string(global.coinCounter)"
-draw_text(1905, 15, string("Coins: ") + string(string(global.coinCounter)));
+draw_text(1895, 25, string("Coins: ") + string(string(global.coinCounter)));

@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 05D8B4A0
-/// @DnDArgument : "var" "layer_get_visible(layer_get_id("GameOverScreen"))"
+/// @DnDArgument : "var" "layer_get_visible(layer_get_id("Instances_GameOverScreen"))"
 /// @DnDArgument : "value" "true"
-if(layer_get_visible(layer_get_id("GameOverScreen")) == true)
+if(layer_get_visible(layer_get_id("Instances_GameOverScreen")) == true)
 {
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
@@ -17,10 +17,12 @@ if(layer_get_visible(layer_get_id("GameOverScreen")) == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 71D42EA2
 	/// @DnDParent : 05D8B4A0
-	/// @DnDArgument : "code" "var layer_id = layer_get_id("GameOverScreen");$(13_10)layer_set_visible(layer_id, false);$(13_10)layer_id = layer_get_id("Instances_GameOverScreen");$(13_10)layer_set_visible(layer_id, false);$(13_10)"
+	/// @DnDArgument : "code" "var layer_id = layer_get_id("GameOverScreen");$(13_10)layer_set_visible(layer_id, false);$(13_10)layer_id = layer_get_id("Instances_GameOverScreen");$(13_10)layer_set_visible(layer_id, false);$(13_10)layer_id = layer_get_id("Instances_HighScore");$(13_10)layer_set_visible(layer_id, false);$(13_10)"
 	var layer_id = layer_get_id("GameOverScreen");
 	layer_set_visible(layer_id, false);
 	layer_id = layer_get_id("Instances_GameOverScreen");
+	layer_set_visible(layer_id, false);
+	layer_id = layer_get_id("Instances_HighScore");
 	layer_set_visible(layer_id, false);
 
 	/// @DnDAction : YoYo Games.Common.Execute_Script

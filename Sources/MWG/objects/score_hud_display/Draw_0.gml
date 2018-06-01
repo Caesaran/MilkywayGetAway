@@ -21,8 +21,8 @@ draw_set_valign(fa_top);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 6EC8001C
-/// @DnDArgument : "x" "15"
-/// @DnDArgument : "y" "15"
+/// @DnDArgument : "x" "25"
+/// @DnDArgument : "y" "25"
 /// @DnDArgument : "caption" ""Score: ""
 /// @DnDArgument : "var" "string(global.scoreCounter)"
-draw_text(15, 15, string("Score: ") + string(string(global.scoreCounter)));
+draw_text(25, 25, string("Score: ") + string(string(global.scoreCounter)));

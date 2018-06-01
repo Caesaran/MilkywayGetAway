@@ -1,5 +1,5 @@
-/// @DnDAction : YoYo Games.Instances.Change_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 52955C9A
-/// @DnDArgument : "objind" "objBombExplosion"
-instance_change(objBombExplosion, true);
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 7FB2BD98
+/// @DnDArgument : "script" "enemyDestructionShock"
+script_execute(enemyDestructionShock);

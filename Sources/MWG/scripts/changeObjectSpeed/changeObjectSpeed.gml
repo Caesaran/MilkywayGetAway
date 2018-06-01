@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7939F315
-/// @DnDArgument : "code" "/* $(13_10)	argument0 = object$(13_10)	$(13_10)	This script changes the objects speed depending on $(13_10)	the value of slowTimeModifier. $(13_10)*/$(13_10)$(13_10)show_debug_message("Object: " + string(object_get_name(argument0.object_index)));$(13_10)var objectName = object_get_name(argument0.object_index);$(13_10)$(13_10)//halve speed$(13_10)if(global.slowTimeModifier == 0.5) {$(13_10)	argument0.speed = argument0.speed * global.slowTimeModifier;$(13_10)	show_debug_message("Speed halved!");$(13_10)	$(13_10)	if (objectName == objEnemy) {$(13_10)		show_debug_message("rofl");$(13_10)		//path_start(path_enemy, 0.5, path_action_restart, false);$(13_10)		path_speed = global.slowTimeModifier;$(13_10)	}$(13_10)$(13_10)}$(13_10)$(13_10)//return speed to normal (double speed)$(13_10)else if (global.slowTimeModifier == 1.0) {$(13_10)	argument0.speed = argument0.speed * 2;$(13_10)	show_debug_message("Speed doubled!");$(13_10)	$(13_10)	if (objectName == objEnemy) {$(13_10)		show_debug_message("lmao");$(13_10)		//path_start(path_enemy, 1.0, path_action_restart, false);$(13_10)		path_speed = global.slowTimeModifier;$(13_10)	}$(13_10)}"
+/// @DnDArgument : "code" "/* $(13_10)	argument0 = object$(13_10)	$(13_10)	This script changes the objects speed depending on $(13_10)	the value of slowTimeModifier. $(13_10)*/$(13_10)$(13_10)show_debug_message("Object: " + string(object_get_name(argument0.object_index)));$(13_10)var objectName = object_get_name(argument0.object_index);$(13_10)$(13_10)//halve speed$(13_10)if(global.slowTimeModifier == 0.5) {$(13_10)	argument0.speed = argument0.speed * global.slowTimeModifier;$(13_10)	show_debug_message("Speed halved!");$(13_10)	$(13_10)	if (objectName == objEnemy) {$(13_10)		path_speed = global.slowTimeModifier;$(13_10)	}$(13_10)$(13_10)}$(13_10)$(13_10)//return speed to normal (double speed)$(13_10)else if (global.slowTimeModifier == 1.0) {$(13_10)	argument0.speed = argument0.speed * 2;$(13_10)	show_debug_message("Speed doubled!");$(13_10)	$(13_10)	if (objectName == objEnemy) {$(13_10)		path_speed = global.slowTimeModifier;$(13_10)	}$(13_10)}"
 /* 
 	argument0 = object
 	
@@ -18,8 +18,6 @@ if(global.slowTimeModifier == 0.5) {
 	show_debug_message("Speed halved!");
 	
 	if (objectName == objEnemy) {
-		show_debug_message("rofl");
-		//path_start(path_enemy, 0.5, path_action_restart, false);
 		path_speed = global.slowTimeModifier;
 	}
 
@@ -31,8 +29,6 @@ else if (global.slowTimeModifier == 1.0) {
 	show_debug_message("Speed doubled!");
 	
 	if (objectName == objEnemy) {
-		show_debug_message("lmao");
-		//path_start(path_enemy, 1.0, path_action_restart, false);
 		path_speed = global.slowTimeModifier;
 	}
 }/**/

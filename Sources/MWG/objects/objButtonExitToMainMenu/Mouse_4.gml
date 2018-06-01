@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3B68E5F6
-/// @DnDArgument : "var" "layer_get_visible(layer_get_id("GameOverScreen"))"
+/// @DnDArgument : "var" "layer_get_visible(layer_get_id("instances_GameOverScreen"))"
 /// @DnDArgument : "value" "true"
-if(layer_get_visible(layer_get_id("GameOverScreen")) == true)
+if(layer_get_visible(layer_get_id("instances_GameOverScreen")) == true)
 {
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
@@ -66,9 +66,9 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 691B7D1B
 	/// @DnDParent : 3BAD0D77
-	/// @DnDArgument : "var" "layer_get_visible(layer_get_id("PauseScreen"))"
+	/// @DnDArgument : "var" "layer_get_visible(layer_get_id("Instances_PauseScreen"))"
 	/// @DnDArgument : "value" "true"
-	if(layer_get_visible(layer_get_id("PauseScreen")) == true)
+	if(layer_get_visible(layer_get_id("Instances_PauseScreen")) == true)
 	{
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1

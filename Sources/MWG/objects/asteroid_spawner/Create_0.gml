@@ -102,6 +102,16 @@ global.objectYLimit = 1300;
 spawnTimer = 0;
 spawnTimerMax = (room_speed * 5) * global.spawnSpeedModifier;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 42AF7B30
+/// @DnDInput : 2
+/// @DnDArgument : "expr_1" "room_speed * 5"
+/// @DnDArgument : "var" "speedUpTimer"
+/// @DnDArgument : "var_1" "speedUpTimerMax"
+speedUpTimer = 0;
+speedUpTimerMax = room_speed * 5;
+
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 570FE5A0
@@ -132,6 +142,6 @@ show_debug_message(string("Game Start!"));
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 304D02EC
+/// @DnDDisabled : 1
 /// @DnDArgument : "steps" "room_speed * 5"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, room_speed * 5);

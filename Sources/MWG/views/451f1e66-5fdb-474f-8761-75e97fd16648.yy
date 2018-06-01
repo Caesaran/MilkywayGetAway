@@ -19,9 +19,11 @@
         "447327a0-95e1-47d5-972a-0e5aa63d5822",
         "2e9ed0b4-e6a1-451e-acab-28c0d3e58401",
         "8bb6f109-577f-46ec-808c-146a06189e31",
-        "a721cf9a-607e-4e7f-b57b-561fe11de409",
+        "26e969a3-3dfc-4840-8c0a-eb25c6d8f67b",
         "9b2e736e-0655-4e41-89ec-647fa9f54c4b",
         "7ce1c244-728e-4c31-bfa9-4d6d5d26a584",
+        "a721cf9a-607e-4e7f-b57b-561fe11de409",
+        "22c142e3-4b2f-428e-8708-10ad96368ab2",
         "1aed6e4c-5c2a-4198-972f-1dd5f5ecb9c0",
         "0c69c413-4625-4875-8cf7-19a623a003e1",
         "c1959ae8-0051-4d31-b7dc-481c621e78d8",
@@ -33,7 +35,8 @@
         "68d9b883-e57a-45b0-ac88-e1cd76288a78",
         "f9d1133b-b53e-4da3-8aca-03af6c30fa1a",
         "727f2a64-0c74-400a-b6ab-1825ec7b9494",
-        "986ee093-5b0d-4c48-a01e-ffc8af2ba273"
+        "986ee093-5b0d-4c48-a01e-ffc8af2ba273",
+        "c581ed18-f196-4d7a-887b-4e4ec31596c6"
     ],
     "filterType": "GMObject",
     "folderName": "IngameObjects",

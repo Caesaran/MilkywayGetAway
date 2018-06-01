@@ -1,19 +1,23 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2EC7E1EE
+/// @DnDInput : 3
+/// @DnDArgument : "expr" "objWarning.x"
+/// @DnDArgument : "expr_1" "objWarning.y"
+/// @DnDArgument : "expr_2" "point_distance(objEnemy.x, objEnemy.y, objWarning.x, objWarning.y) / (room_speed * 2)"
+/// @DnDArgument : "var" "destinationX"
+/// @DnDArgument : "var_1" "destinationY"
+/// @DnDArgument : "var_2" "movementSpeed"
+destinationX = objWarning.x;
+destinationY = objWarning.y;
+movementSpeed = point_distance(objEnemy.x, objEnemy.y, objWarning.x, objWarning.y) / (room_speed * 2);
+
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
 /// @DnDHash : 1D1A849F
 /// @DnDArgument : "soundid" "bomb_use"
 /// @DnDSaveInfo : "soundid" "133a700f-a874-4e8d-b10e-dcdc52336db3"
 audio_play_sound(bomb_use, 0, 0);
-
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 53363D25
-/// @DnDArgument : "code" "// Create a path to the location of objWarning:$(13_10)$(13_10)var destinationX = objWarning.x;$(13_10)var destinationY = objWarning.y;$(13_10)var movementSpeed = 2;"
-// Create a path to the location of objWarning:
-
-var destinationX = objWarning.x;
-var destinationY = objWarning.y;
-var movementSpeed = 2;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
