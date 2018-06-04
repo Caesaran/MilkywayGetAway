@@ -49,7 +49,13 @@ if(global.isGamePaused == false)
 	/// @DnDVersion : 1
 	/// @DnDHash : 2F55F4C7
 	/// @DnDParent : 31857612
-	/// @DnDArgument : "code" "//Take a screenshot and create a sprite:$(13_10)var screenShot = takeScreenShot();$(13_10)var layer_id = layer_get_id("PauseScreen");$(13_10)layer_sprite_create(layer_id, 0, 0, screenShot);$(13_10)$(13_10)//Set sprite to PauseScreen layer:$(13_10)var back_id = layer_background_get_id(layer_id);$(13_10)layer_background_sprite(back_id, screenShot);$(13_10)$(13_10)//Deactivate all instances:$(13_10)instance_deactivate_all(true);$(13_10)$(13_10)//Activate Instances_ShopScreen layer:$(13_10)layer_id = layer_get_id("Instances_ShopScreen");$(13_10)layer_set_visible(layer_id, true);$(13_10)instance_activate_layer(layer_id);$(13_10)$(13_10)layer_id = layer_get_id("Instances_ShopScreen_1");$(13_10)layer_set_visible(layer_id, true);$(13_10)instance_activate_layer(layer_id);$(13_10)$(13_10)//Set Instances_PauseScreen layer visible:$(13_10)layer_id = layer_get_id("PauseScreen");$(13_10)layer_set_visible(layer_id, true);$(13_10)$(13_10)//Set background layers vertical speed to 0:$(13_10)layer_id = layer_get_id("Background_Clouds");$(13_10)layer_vspeed(layer_id, 0);$(13_10)layer_id = layer_get_id("Background_Stars_1");$(13_10)layer_vspeed(layer_id, 0);$(13_10)layer_id = layer_get_id("Background_Stars_2");$(13_10)layer_vspeed(layer_id, 0);$(13_10)layer_id = layer_get_id("Background_Stars_3");$(13_10)layer_vspeed(layer_id, 0);$(13_10)layer_id = layer_get_id("Background_Stars_4");$(13_10)layer_vspeed(layer_id, 0);$(13_10)$(13_10)//Pause sound effects that are playing:$(13_10)audio_group_stop_all(audiogroup_powerup);$(13_10)"
+	/// @DnDArgument : "code" "//Set HUD layers invisible:$(13_10)layer_id = layer_get_id("HUD");$(13_10)instance_deactivate_layer(layer_id);$(13_10)layer_id = layer_get_id("HUD_1");$(13_10)instance_deactivate_layer(layer_id);$(13_10)$(13_10)//Take a screenshot and create a sprite:$(13_10)var screenShot = takeScreenShot();$(13_10)var layer_id = layer_get_id("PauseScreen");$(13_10)layer_sprite_create(layer_id, 0, 0, screenShot);$(13_10)$(13_10)//Set sprite to PauseScreen layer:$(13_10)var back_id = layer_background_get_id(layer_id);$(13_10)layer_background_sprite(back_id, screenShot);$(13_10)$(13_10)//Deactivate all instances:$(13_10)instance_deactivate_all(true);$(13_10)$(13_10)//Set HUD layers visible and activate HUD stuff:$(13_10)layer_id = layer_get_id("HUD");$(13_10)instance_activate_layer(layer_id);$(13_10)layer_id = layer_get_id("HUD_1");$(13_10)instance_activate_layer(layer_id);$(13_10)$(13_10)//Activate Instances_ShopScreen layer:$(13_10)layer_id = layer_get_id("Instances_ShopScreen");$(13_10)layer_set_visible(layer_id, true);$(13_10)instance_activate_layer(layer_id);$(13_10)$(13_10)layer_id = layer_get_id("Instances_ShopScreen_1");$(13_10)layer_set_visible(layer_id, true);$(13_10)instance_activate_layer(layer_id);$(13_10)$(13_10)//Set Instances_PauseScreen layer visible:$(13_10)layer_id = layer_get_id("PauseScreen");$(13_10)layer_set_visible(layer_id, true);$(13_10)$(13_10)//Set background layers vertical speed to 0:$(13_10)layer_id = layer_get_id("Background_Clouds");$(13_10)layer_vspeed(layer_id, 0);$(13_10)layer_id = layer_get_id("Background_Stars_1");$(13_10)layer_vspeed(layer_id, 0);$(13_10)layer_id = layer_get_id("Background_Stars_2");$(13_10)layer_vspeed(layer_id, 0);$(13_10)layer_id = layer_get_id("Background_Stars_3");$(13_10)layer_vspeed(layer_id, 0);$(13_10)layer_id = layer_get_id("Background_Stars_4");$(13_10)layer_vspeed(layer_id, 0);$(13_10)$(13_10)//Pause sound effects that are playing:$(13_10)audio_group_stop_all(audiogroup_powerup);$(13_10)"
+	//Set HUD layers invisible:
+	layer_id = layer_get_id("HUD");
+	instance_deactivate_layer(layer_id);
+	layer_id = layer_get_id("HUD_1");
+	instance_deactivate_layer(layer_id);
+	
 	//Take a screenshot and create a sprite:
 	var screenShot = takeScreenShot();
 	var layer_id = layer_get_id("PauseScreen");
@@ -61,6 +67,12 @@ if(global.isGamePaused == false)
 	
 	//Deactivate all instances:
 	instance_deactivate_all(true);
+	
+	//Set HUD layers visible and activate HUD stuff:
+	layer_id = layer_get_id("HUD");
+	instance_activate_layer(layer_id);
+	layer_id = layer_get_id("HUD_1");
+	instance_activate_layer(layer_id);
 	
 	//Activate Instances_ShopScreen layer:
 	layer_id = layer_get_id("Instances_ShopScreen");

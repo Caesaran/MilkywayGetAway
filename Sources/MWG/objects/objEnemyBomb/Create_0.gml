@@ -12,6 +12,12 @@ destinationX = objWarning.x;
 destinationY = objWarning.y;
 movementSpeed = point_distance(objEnemy.x, objEnemy.y, objWarning.x, objWarning.y) / (room_speed * 2);
 
+/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+/// @DnDVersion : 1
+/// @DnDHash : 66C172D4
+/// @DnDArgument : "angle" "random_range(0,360)"
+image_angle = random_range(0,360);
+
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
 /// @DnDHash : 1D1A849F

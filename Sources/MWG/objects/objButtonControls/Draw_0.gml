@@ -10,5 +10,5 @@ draw_self();
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "xscale" "textSize"
 /// @DnDArgument : "yscale" "textSize"
-/// @DnDArgument : "caption" ""CONTROLS""
-draw_text_transformed(x + 0, y + 0, string("CONTROLS") + "", textSize, textSize, 0);
+/// @DnDArgument : "caption" ""HELP""
+draw_text_transformed(x + 0, y + 0, string("HELP") + "", textSize, textSize, 0);

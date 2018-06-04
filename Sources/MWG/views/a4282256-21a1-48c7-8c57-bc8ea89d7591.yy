@@ -10,7 +10,8 @@
         "2bd02b45-341c-4f7e-8f8d-ad36fa7a791b",
         "14e39806-2dea-44b5-8047-439dc531b4e8",
         "66733594-3dbf-4d2b-8067-a5133d3ec73a",
-        "fa7d5acd-301f-4a6b-a216-bf428e03c604"
+        "fa7d5acd-301f-4a6b-a216-bf428e03c604",
+        "7f702ed5-9946-4905-9515-bae1b1e5f9b2"
     ],
     "filterType": "GMScript",
     "folderName": "Menu Scripts",

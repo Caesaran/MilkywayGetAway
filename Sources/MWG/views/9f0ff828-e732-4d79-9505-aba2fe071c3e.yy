@@ -10,7 +10,12 @@
         "db4cb02a-1e9a-4244-9ee8-2260e0de0f07",
         "3884bf55-dc5f-4ac8-8152-b857c161d0f8",
         "0139adf2-3f41-4407-b407-b35a6a3d9f78",
-        "da71a468-646c-4510-a756-4e1f9d04c9f0"
+        "da71a468-646c-4510-a756-4e1f9d04c9f0",
+        "3c75dce0-358e-4521-8966-91c1408ab198",
+        "b0de6069-b109-4130-9665-a3a1b576bdea",
+        "1f651ecf-2141-4e23-a735-a96c89326afa",
+        "082ac15e-bbeb-4efa-9346-85de5954a30c",
+        "4399a4fc-708d-4a5f-8d29-8180b2a8ec02"
     ],
     "filterType": "GMObject",
     "folderName": "Unclickable",

@@ -35,11 +35,11 @@ if(instance_exists(objPlayer)) {
 				//show_debug_message(string("spawnSpeedModifier = " + string(global.spawnSpeedModifier)));
 				//show_debug_message(string("Enemy Speed = " + string(global.enemySpeedMin) + " - " + string(global.enemySpeedMax)));
 		
-				global.layer1Speed = global.layer1Speed * 1.1;
-				global.layer2Speed = global.layer2Speed * 1.1;
-				global.layer3Speed = global.layer3Speed * 1.1;
-				global.layer4Speed = global.layer4Speed * 1.1;
-				global.layer5Speed = global.layer5Speed * 1.1;
+				global.layer1Speed = global.layer1Speed * 1.05;
+				global.layer2Speed = global.layer2Speed * 1.05;
+				global.layer3Speed = global.layer3Speed * 1.05;
+				global.layer4Speed = global.layer4Speed * 1.05;
+				global.layer5Speed = global.layer5Speed * 1.05;
 			}
 			else {
 				show_debug_message(string("Slow time on, no speed increase"));

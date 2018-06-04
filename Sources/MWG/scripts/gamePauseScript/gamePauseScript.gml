@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 658CAF47
-/// @DnDArgument : "code" "/* This script is executed when the player enters a shop portal */"
-/* This script is executed when the player enters a shop portal *//**/
+/// @DnDArgument : "code" "/* This script is executed when the player enters a pause screen */"
+/* This script is executed when the player enters a pause screen *//**/
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -110,8 +110,8 @@ else
 		/// @DnDVersion : 1
 		/// @DnDHash : 3B2B6E86
 		/// @DnDParent : 675263AE
-		/// @DnDArgument : "code" "/* Hides shop screen and buttons and reactivates all instances. */$(13_10)$(13_10)//Activate all instances:$(13_10)instance_activate_all();$(13_10)$(13_10)//Set PauseScreen layer invisible:$(13_10)var layer_id = layer_get_id("PauseScreen");$(13_10)layer_set_visible(layer_id, false);$(13_10)$(13_10)//Delete background sprite from PauseScreen layer:$(13_10)var back_id = layer_background_get_id(layer_id);$(13_10)var spr = layer_background_get_sprite(back_id);$(13_10)layer_sprite_change(spr, -1);$(13_10)sprite_delete(spr);$(13_10)$(13_10)//Set Instances_PauseScreen layer invisible:$(13_10)layer_id = layer_get_id("Instances_PauseScreen");$(13_10)layer_set_visible(layer_id, false);$(13_10)$(13_10)//Set background vertical speed to normal:$(13_10)layer_id = layer_get_id("Background_Clouds");$(13_10)layer_vspeed(layer_id, global.layer1Speed);$(13_10)layer_id = layer_get_id("Background_Stars_1");$(13_10)layer_vspeed(layer_id, global.layer2Speed);$(13_10)layer_id = layer_get_id("Background_Stars_2");$(13_10)layer_vspeed(layer_id, global.layer3Speed);$(13_10)layer_id = layer_get_id("Background_Stars_3");$(13_10)layer_vspeed(layer_id, global.layer4Speed);$(13_10)layer_id = layer_get_id("Background_Stars_4");$(13_10)layer_vspeed(layer_id, global.layer5Speed);"
-		/* Hides shop screen and buttons and reactivates all instances. */
+		/// @DnDArgument : "code" "/* Hides pause screen and buttons and reactivates all instances. */$(13_10)$(13_10)//Activate all instances:$(13_10)instance_activate_all();$(13_10)$(13_10)//Set PauseScreen layer invisible:$(13_10)var layer_id = layer_get_id("PauseScreen");$(13_10)layer_set_visible(layer_id, false);$(13_10)$(13_10)//Delete background sprite from PauseScreen layer:$(13_10)var back_id = layer_background_get_id(layer_id);$(13_10)var spr = layer_background_get_sprite(back_id);$(13_10)layer_sprite_change(spr, -1);$(13_10)sprite_delete(spr);$(13_10)$(13_10)//Set Instances_PauseScreen layer invisible:$(13_10)layer_id = layer_get_id("Instances_PauseScreen");$(13_10)layer_set_visible(layer_id, false);$(13_10)$(13_10)//Set background vertical speed to normal:$(13_10)layer_id = layer_get_id("Background_Clouds");$(13_10)layer_vspeed(layer_id, global.layer1Speed);$(13_10)layer_id = layer_get_id("Background_Stars_1");$(13_10)layer_vspeed(layer_id, global.layer2Speed);$(13_10)layer_id = layer_get_id("Background_Stars_2");$(13_10)layer_vspeed(layer_id, global.layer3Speed);$(13_10)layer_id = layer_get_id("Background_Stars_3");$(13_10)layer_vspeed(layer_id, global.layer4Speed);$(13_10)layer_id = layer_get_id("Background_Stars_4");$(13_10)layer_vspeed(layer_id, global.layer5Speed);"
+		/* Hides pause screen and buttons and reactivates all instances. */
 		
 		//Activate all instances:
 		instance_activate_all();

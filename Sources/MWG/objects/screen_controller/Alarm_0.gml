@@ -1,15 +1,17 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7565FAFC
-/// @DnDArgument : "code" "var layer_id = layer_get_id("GameOverScreen");$(13_10)layer_set_visible(layer_id, true);$(13_10)$(13_10)for(var i = 10; i > 0; i--) {		$(13_10)		if(global.scoreCounter > highscore_value(i)) {	$(13_10)			show_debug_message("Made it to the high score list :D");$(13_10)			global.highScoreListUpdated = true;$(13_10)			playerName = get_string_async("You done did it now! Tell me your name, kid.", "Player");$(13_10)			break;$(13_10)		}$(13_10)}$(13_10)$(13_10)if(global.highScoreListUpdated = false) {$(13_10)	//Set game over screen buttons and high score list visible:$(13_10)	var layer_id = layer_get_id("Instances_GameOverScreen");$(13_10)	layer_set_visible(layer_id, true);$(13_10)	layer_id = layer_get_id("Instances_HighScore");$(13_10)	layer_set_visible(layer_id, true);$(13_10)}$(13_10)$(13_10)"
+/// @DnDArgument : "code" "var layer_id = layer_get_id("GameOverScreen");$(13_10)	layer_set_visible(layer_id, true);$(13_10)$(13_10)for(var i = 10; i > 0; i--) {		$(13_10)		if(global.scoreCounter > highscore_value(i)) {	$(13_10)			show_debug_message("Made it to the high score list :D");$(13_10)			global.highScoreListUpdated = true;$(13_10)			var layer_id = layer_get_id("Instances_NameInput");$(13_10)			layer_set_visible(layer_id, true);$(13_10)			keyboard_string = "";$(13_10)			break;$(13_10)		}$(13_10)}$(13_10)$(13_10)if(global.highScoreListUpdated = false) {$(13_10)	//Set game over screen buttons and high score list visible:$(13_10)	var layer_id = layer_get_id("Instances_GameOverScreen");$(13_10)	layer_set_visible(layer_id, true);$(13_10)	var layer_id = layer_get_id("Instances_HighScore");$(13_10)	layer_set_visible(layer_id, true);$(13_10)}$(13_10)$(13_10)"
 var layer_id = layer_get_id("GameOverScreen");
-layer_set_visible(layer_id, true);
+	layer_set_visible(layer_id, true);
 
 for(var i = 10; i > 0; i--) {		
 		if(global.scoreCounter > highscore_value(i)) {	
 			show_debug_message("Made it to the high score list :D");
 			global.highScoreListUpdated = true;
-			playerName = get_string_async("You done did it now! Tell me your name, kid.", "Player");
+			var layer_id = layer_get_id("Instances_NameInput");
+			layer_set_visible(layer_id, true);
+			keyboard_string = "";
 			break;
 		}
 }
@@ -18,7 +20,7 @@ if(global.highScoreListUpdated = false) {
 	//Set game over screen buttons and high score list visible:
 	var layer_id = layer_get_id("Instances_GameOverScreen");
 	layer_set_visible(layer_id, true);
-	layer_id = layer_get_id("Instances_HighScore");
+	var layer_id = layer_get_id("Instances_HighScore");
 	layer_set_visible(layer_id, true);
 }
 
