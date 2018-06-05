@@ -1,7 +1,7 @@
 if(layer_get_visible(layer_get_id("GameOverScreen"))) {
 	if(playerName != "") {
-	//Add score to the high score list:
-	highscore_add(playerName, global.scoreCounter);
+		//Add score to the high score list:
+		highscore_add(playerName, global.scoreCounter);
 	}
 	else {
 		//Add score to the high score list:

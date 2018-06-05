@@ -13,8 +13,8 @@
         "efe3de45-b151-457b-8ff1-56deabb5b4df",
         "83b7638a-a932-408f-beac-9ab53c982374",
         "f236d9fc-b2b0-4117-bd65-72726a6cf1f3",
-        "9c707096-9b19-4f6c-99f0-e7cd94bccfd1",
-        "83a103e3-7c3e-4312-9ec7-2f51c5cfd47a"
+        "83a103e3-7c3e-4312-9ec7-2f51c5cfd47a",
+        "137f6973-9333-4713-bf55-0a2c13579f95"
     ],
     "filterType": "GMSprite",
     "folderName": "Menu \/ Controls",

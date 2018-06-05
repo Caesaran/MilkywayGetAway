@@ -15,7 +15,10 @@
         "b0de6069-b109-4130-9665-a3a1b576bdea",
         "1f651ecf-2141-4e23-a735-a96c89326afa",
         "082ac15e-bbeb-4efa-9346-85de5954a30c",
-        "4399a4fc-708d-4a5f-8d29-8180b2a8ec02"
+        "4399a4fc-708d-4a5f-8d29-8180b2a8ec02",
+        "6178230e-247c-4c68-9352-86ccb36eec3b",
+        "c4515b8e-53a2-4224-95bc-c5a083dee132",
+        "833ec451-2bb0-4045-90d6-530fcb6fd5e2"
     ],
     "filterType": "GMObject",
     "folderName": "Unclickable",

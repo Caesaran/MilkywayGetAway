@@ -127,14 +127,6 @@
             }
         },
         {
-            "Key": "0e87d591-852f-4db7-84bb-9b21f9f1522b",
-            "Value": {
-                "id": "3f467f9b-083b-4d9a-86c6-5d6376e099a9",
-                "resourcePath": "objects\\objButtonBuy\\objButtonBuy.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1073d210-b467-4785-960e-dd94af0e1125",
             "Value": {
                 "id": "35feb427-cb35-4ea6-af10-16676ca10d9f",
@@ -180,6 +172,14 @@
                 "id": "e9aecec0-21bf-44b2-9ddd-e4611be0f27d",
                 "resourcePath": "sounds\\bomb_use\\bomb_use.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "137f6973-9333-4713-bf55-0a2c13579f95",
+            "Value": {
+                "id": "37deb939-7908-4891-8b80-80db2536af70",
+                "resourcePath": "sprites\\sprite_logo\\sprite_logo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -815,6 +815,14 @@
             }
         },
         {
+            "Key": "6178230e-247c-4c68-9352-86ccb36eec3b",
+            "Value": {
+                "id": "24553ea7-92ad-4688-bee2-fe31b55d3f61",
+                "resourcePath": "objects\\objCreditsText\\objCreditsText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "63394f94-4652-4fba-95ff-733d9b8e97e1",
             "Value": {
                 "id": "a7955ee1-4676-4148-b658-ea976d3d3a67",
@@ -1015,6 +1023,14 @@
             }
         },
         {
+            "Key": "833ec451-2bb0-4045-90d6-530fcb6fd5e2",
+            "Value": {
+                "id": "12bbc38f-ed3d-4516-a166-c7b3cbd2adf0",
+                "resourcePath": "objects\\objShopCountDown\\objShopCountDown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "83a103e3-7c3e-4312-9ec7-2f51c5cfd47a",
             "Value": {
                 "id": "af3aa09c-f28d-4e06-b0d8-b06b4c24c9f2",
@@ -1164,14 +1180,6 @@
                 "id": "a2711762-e2ba-4a4e-990f-2a8c0f67c824",
                 "resourcePath": "objects\\objBomb\\objBomb.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "9c707096-9b19-4f6c-99f0-e7cd94bccfd1",
-            "Value": {
-                "id": "50b14c95-83f4-4491-b8f0-b401ade61b5f",
-                "resourcePath": "sprites\\sprite_shop_button_buy\\sprite_shop_button_buy.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1423,6 +1431,14 @@
             }
         },
         {
+            "Key": "c4515b8e-53a2-4224-95bc-c5a083dee132",
+            "Value": {
+                "id": "6a2383df-d965-4f53-af78-b183ad077e40",
+                "resourcePath": "objects\\objLogo\\objLogo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c53f776c-fd95-47ae-9e0b-04b7e8411103",
             "Value": {
                 "id": "ead476bd-77ee-4d32-89b6-696937e968f7",
@@ -1452,6 +1468,14 @@
                 "id": "662455e7-c37b-45fb-869c-78372a86dfdf",
                 "resourcePath": "views\\c72174d5-e253-437f-85c6-4820a2a4c704.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c91d9e2b-a640-4f33-a729-fb545f6858a7",
+            "Value": {
+                "id": "e9646646-f987-4639-8fd2-80fba513bcd6",
+                "resourcePath": "rooms\\Credits\\Credits.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1596,6 +1620,14 @@
                 "id": "72760450-bdc8-48ba-aff5-f6db91a730b5",
                 "resourcePath": "views\\dca6521e-2de5-441f-82c1-66968cdcc189.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dd7c838e-027a-4dbf-91c9-1a3a2a9d514b",
+            "Value": {
+                "id": "6d0dddb5-3081-4c6a-9030-e59570974dbf",
+                "resourcePath": "objects\\objButtonCredits\\objButtonCredits.yy",
+                "resourceType": "GMObject"
             }
         },
         {
