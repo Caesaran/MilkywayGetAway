@@ -1,13 +1,5 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 3659FD60
-/// @DnDDisabled : 1
-/// @DnDArgument : "value" "false"
-/// @DnDArgument : "var" "scriptIsRunning"
-
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
 /// @DnDHash : 69CEC4F0
 /// @DnDInput : 5
 /// @DnDArgument : "value" "660"
@@ -105,43 +97,18 @@ spawnTimerMax = (room_speed * 5) * global.spawnSpeedModifier;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 42AF7B30
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "expr_1" "room_speed * 5"
+/// @DnDArgument : "expr_2" "25"
 /// @DnDArgument : "var" "speedUpTimer"
 /// @DnDArgument : "var_1" "speedUpTimerMax"
+/// @DnDArgument : "var_2" "enemyMaximumSpeed"
 speedUpTimer = 0;
 speedUpTimerMax = room_speed * 5;
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 570FE5A0
-/// @DnDDisabled : 1
-/// @DnDArgument : "msg" ""Enemy Speed = " + string(global.enemySpeedMin) + " - " + string(global.enemySpeedMax)"
-
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 0DB8C7E9
-/// @DnDDisabled : 1
-/// @DnDArgument : "msg" ""Spawn speed = " + string(global.spawnSpeed)"
-
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 6CE084BE
-/// @DnDDisabled : 1
-/// @DnDArgument : "msg" ""SpawnTimerMax = " + string(spawnTimerMax)"
-
+enemyMaximumSpeed = 25;
 
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 7989D776
 /// @DnDArgument : "msg" ""Game Start!""
 show_debug_message(string("Game Start!"));
-
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
-/// @DnDVersion : 1
-/// @DnDHash : 304D02EC
-/// @DnDDisabled : 1
-/// @DnDArgument : "steps" "room_speed * 5"
-/// @DnDArgument : "alarm" "1"

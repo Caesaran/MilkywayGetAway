@@ -22,7 +22,7 @@ if(instance_exists(objPlayer)) {
 	// Game gets faster if slowdown is not in effect or when max speed is not reached:
 	if(speedUpTimer >= speedUpTimerMax) {
 		speedUpTimer = 0;
-		if(!(global.enemySpeedMax >= 20)) {
+		if(!(global.enemySpeedMax >= enemyMaximumSpeed)) {
 			if(!(global.slowTimeModifier == 0.5)) {
 				global.spawnSpeedModifier += +0.1;
 				global.spawnSpeed = (room_speed / global.spawnSpeedModifier) / global.slowTimeModifier;
@@ -31,10 +31,7 @@ if(instance_exists(objPlayer)) {
 				global.enemySpeedMax = (global.enemyBaseSpeedMax * global.spawnSpeedModifier);
 		
 				spawnTimerMax = (room_speed * 5) / global.spawnSpeedModifier;
-		
-				//show_debug_message(string("spawnSpeedModifier = " + string(global.spawnSpeedModifier)));
-				//show_debug_message(string("Enemy Speed = " + string(global.enemySpeedMin) + " - " + string(global.enemySpeedMax)));
-		
+
 				global.layer1Speed = global.layer1Speed * 1.05;
 				global.layer2Speed = global.layer2Speed * 1.05;
 				global.layer3Speed = global.layer3Speed * 1.05;

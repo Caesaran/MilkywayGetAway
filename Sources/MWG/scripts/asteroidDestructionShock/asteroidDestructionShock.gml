@@ -7,11 +7,11 @@ audio_play_sound(asteroid_death, 0, 0);
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 0050D7BA
-/// @DnDArgument : "value" "+50"
+/// @DnDHash : 3B212B6B
+/// @DnDArgument : "value" "+100"
 /// @DnDArgument : "value_relative" "1"
 /// @DnDArgument : "var" "scoreCounter"
-global.scoreCounter += +50;
+global.scoreCounter += +100;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
