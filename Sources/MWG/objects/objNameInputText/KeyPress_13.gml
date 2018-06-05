@@ -1,4 +1,4 @@
-if(layer_get_visible(layer_get_id("GameOverScreen"))) {
+if(layer_get_visible(layer_get_id("Instances_NameInput"))) {
 	if(playerName != "") {
 		//Add score to the high score list:
 		highscore_add(playerName, global.scoreCounter);
